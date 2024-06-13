@@ -376,6 +376,8 @@ body,html{
 }
 .pricing-card ul {
     height: 350px;
+    list-style: none;
+    padding-left: 0;
     overflow-y: auto;
 }
 .pricing-card ul li {

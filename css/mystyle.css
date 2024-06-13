@@ -827,7 +827,7 @@ img{
     font-family: poppins;
     font-weight: 600;
 }
-.pricing-card ul {
+ul {
     list-style: none;
     padding: 0;
 }
@@ -900,6 +900,8 @@ ul{
 .pricing-card ul{
     height: 350px;
     overflow-y: auto;
+    list-style: none;
+    padding-left: 0;
 }
 
 .pricing-card ul::-webkit-scrollbar {
@@ -1098,6 +1100,7 @@ ul{
     background-size: contain;
     z-index: 2
 }
+
 
 .workflow-number {
     width: 75px;
