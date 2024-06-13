@@ -1,0 +1,781 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins','sans-serif';
+}
+
+body,html{
+    max-width: 100%;
+    overflow-x: hidden;
+}
+.bg-icons .col-md-2{
+    position: relative;
+    padding: 0px !important;
+}
+.bg-overlay{
+    background-image: linear-gradient(172deg, #2042FF30 0%, #00046D 100%);
+}
+.bg-icons .col-md-2::after{
+    content:'';
+    position: absolute;
+    width: 100%;
+    background:rgba(41, 47, 170, 0.6784313725490196);
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+.bg-icons .col-md-2:hover::after{
+    content:'';
+  
+    position: absolute;
+    width: 100%;
+    background:transparent;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+.first-fold{
+    position: absolute;
+    z-index: 1200;
+    left: 50%;
+    top: 30%;
+    text-align: center;
+    transform: translateX(-50%);
+}
+.first-fold h1{
+    color: #FFFFFF;
+    font-size: 4vw;
+    font-weight: 600;
+    text-shadow: 0px 0px 10px #000000;
+}
+.first-fold img{
+    width: 4vw;
+}
+.black-bg-banner-2 {
+    display: inline-block;
+    background: rgba(0, 0, 0, .4);
+    padding: 20px 30px 30px 30px;
+    border-radius: 8px;
+}
+.first-fold h2{
+    font-size: 24px;
+    color: #FFFFFF;
+}
+.banner-input-field{
+    border: 4px solid #fff;
+    width: 100%;
+    padding-left: 5px;
+    color: #fff;
+    vertical-align: middle;
+    font-size: 19px;
+    font-weight: 500;
+    background: transparent;
+}
+.banner-input-field::placeholder{
+    color: #fff;    
+}
+.start-btn{
+    background-color: #4285f4;
+    color: white;
+    width: 100%;
+    padding: 7px 0;
+    border-radius: 3px !important;
+}
+@media only screen and (max-width: 768px) {
+    .first-fold{
+        position: absolute;
+        z-index: 1200;
+        left: 50%;
+        top: 17%;
+        text-align: center;
+        transform: translateX(-50%);
+        width: 100%;
+    }
+    .first-fold h1{
+        font-size: 35px;
+    }
+    .first-fold img {
+        width: 45px;
+    }
+    .fs-27{
+        font-size: 16px !important;
+    }
+    .fs-60{
+        font-size: 30px !important;
+    }
+    .portfolio h4,p{
+        font-size: 16px !important;
+    }
+    .portfolio h3{
+        font-size: 30px !important;
+    }
+    .view-portfolio button a{
+        padding: 10px 15px;
+        border: 2px solid #fff;
+        border-radius: 4px;
+        display: inline-block;
+        font-weight: 600;
+        font-size: 17px;
+        transition: all .3s;
+        background-color: transparent !important;
+    }
+    
+    .trans-btn button {
+        padding: 12px 15px;
+        display: inline-block;
+        font-weight: 600;
+        font-size: 18px;
+        transition: all .3s;
+        background-color: transparent !important;
+        color: #fff;
+        border: 0;
+    }
+
+}
+@media only screen and (max-width: 575px) {
+    .view-portfolio button a {
+        padding: 10px 15px;
+        border: 2px solid #fff;
+        border-radius: 4px;
+        display: inline-block;
+        font-weight: 600;
+        font-size: 17px;
+        transition: all .3s;
+        background-color: transparent !important;
+    }
+    .trans-btn button {
+        padding: 12px 15px;
+        display: inline-block;
+        font-weight: 600;
+        font-size: 18px;
+        transition: all .3s;
+        background-color: transparent !important;
+        color: #fff;
+        border: 0;
+    }
+}
+
+.banner-silder{
+    background: #1A207E;
+}
+/* slider */
+.banner-carousel {
+   padding-top: 50px;
+   padding-bottom: 50px;
+}
+.banner-carousel .owl-nav {
+    position: absolute;
+    top: 50%;
+    right: 8%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+}
+
+.banner-carousel .owl-nav .owl-prev,
+.banner-carousel .owl-nav .owl-next {
+    margin: 7px 0;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    background: transparent;
+    border: 1px solid #FFFFFF;
+    font-size: 22px;
+    transition: .5s;
+}
+.banner-carousel img{
+    width: 100%;
+    max-width: 140px;
+}
+.banner-carousel .owl-nav .owl-prev:hover,
+.banner-carousel .owl-nav .owl-next:hover {
+    background: var(--primary);
+    border-color: var(--primary);
+}
+.portfolio h3{
+    font-size: 60px;
+}
+.portfolio h4,p{
+    font-size: 27px;
+}
+.img-carousel img{
+    border-radius: 10px;
+}
+.fs-27{
+    font-size: 27;
+}
+.fs-60{
+    font-size: 60px;
+}
+.fs-18{
+    font-size: 18px !important;
+}
+.fs-49{
+    font-size: 49px !important;
+    font-weight:600 ;
+}
+.fs-20{
+    font-size: 20px !important;
+}
+.fs-24{
+    font-size: 24p;
+    font-weight: 600;
+}
+.rating i{
+    color: #FFAC33;
+    font-size: 30px;
+}
+.rating{
+    background-image: linear-gradient(180deg, #010077 0%, #7929F2 100%);
+    background-color: transparent;
+}
+.rating h5{
+    font-size: 26px;
+    font-style: italic;
+}
+/* .services h4{
+    font-size: 27px;
+    font-weight: 600;
+}
+.services h3{
+    font-size: 60px;
+} */
+.services .tabs {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    position: relative;
+    gap: 10px;
+
+}
+
+.services .tab-button {
+    background-color:transparent;
+    border: #EFF7FA 1px solid;
+    color: white;
+    padding: 30px 40px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    position: relative;
+    font-size: 20px;
+    border-radius: 6px;
+    font-weight: 700;
+}
+
+.services .tab-button img {
+    width: 60px;
+    height: 60px;
+    margin-right: 8px;
+}
+
+.services .tab-button.active {
+    background-color:transparent;
+    border-bottom: 3px solid  rgb(0, 52, 255);
+}
+
+.services .tab-button.active::after {
+    content: "";
+    width: 20px;
+    height: 20px;
+    background-color: #0e0d0d;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -9px;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 4px solid #fff;
+}
+
+/* .services .tab-button:not(:last-child) {
+    border-right: 1px solid #5c2f85;
+} */
+
+.tab-button:hover {
+    background-color: #5c2f85;
+}
+
+.services .tab-content {
+    display: none;
+    padding: 20px;
+    background-color: transparent;
+    border-radius: 5px;
+}
+
+.services .tab-content.active {
+    display: block;
+}
+.pricing{
+    background-image: linear-gradient(180deg, #7828F1 0%, #FF5B51 47%);
+    background-color: transparent;
+}
+/* tabs */
+.tab button.active {
+    background-color: white;
+    color: #f44336;
+}
+.tab button {
+    background-color: inherit;
+    border: 1px solid white;
+    outline: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    transition: 0.3s;
+    color: white;
+    border-radius: 4px;
+    font-size: 18px;
+}
+.pricing-card {
+    background: #D14B42;
+    color: white;
+    padding: 20px;
+    margin: 7px;
+    border-radius: 5px;
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, .13);
+}
+.pricing-card h3 {
+    margin-top: 0;
+    font-size: 36px;
+    font-weight: 700;
+    font-family: poppins;
+}
+.pricing-card p {
+    font-size: 20px;
+    font-family: poppins;
+    font-weight: 600;
+}
+.pricing-card ul {
+    height: 350px;
+    overflow-y: auto;
+}
+.pricing-card ul li {
+    margin: 10px 0;
+}
+.pricing-card img {
+    height: 70px;
+}
+.pricing-card button {
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 2px solid;
+}
+.pricing-card ul::-webkit-scrollbar {
+    width: 5px;
+}
+  
+.pricing-card img{
+    height: 70px;
+}
+  /* Track */
+.pricing-card ul::-webkit-scrollbar-track {
+    background: #912222;
+}
+  
+  /* Handle */
+.pricing-card ul::-webkit-scrollbar-thumb {
+    background: #f9f9f9;
+}
+/* counter */
+.counter-section {
+    padding: 50px 0;
+}
+
+.counters {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.counter {
+    font-size: 2rem;
+}
+
+.count {
+    display: block;
+    font-size: 4rem;
+    font-weight: bold;
+}
+/* workflow */
+.workflow{
+        background-color: transparent;
+        background-image: linear-gradient(180deg, #FF5B51 0%, #6FAC29 38%);
+    }
+
+.workflow-sec {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.workflow-sec-container {
+    display: flex;
+    margin: 0 auto;
+    flex-wrap: wrap
+}
+
+.single-workflow {
+    width: 260px;
+    float: left;
+    padding: 0 7px
+}
+
+.workflow-img {
+    margin: 0 auto;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 2px dashed #000;
+    margin-bottom: 25px;
+    position: relative
+}
+
+.workflow-img img {
+    width: 150px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%)
+}
+
+.workflow-img-2 {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 2px solid transparent;
+    position: relative;
+    margin: 0 -7px;
+    margin-bottom: 40px
+}
+
+.workflow-1 img {
+    width: 100%;
+    max-width: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.workflow-2 img {
+    width: 100%;
+    max-width: 90px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%)
+}
+
+.workflow-3 img {
+    width: 100%;
+    max-width: 80px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%)
+}
+
+.workflow-4 img {
+    width: 100%;
+    max-width: 110px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%)
+}
+
+.workflow-1:before {
+    content: '';
+    position: absolute;
+    width: 184px;
+    height: 200px;
+    top: -3px;
+    left: 10px;
+    background: url(/curve-1.png) no-repeat top;
+    background-size: contain;
+    z-index: 2
+}
+
+.workflow-1:after {
+    content: '';
+    position: absolute;
+    width: 240px;
+    height: 200px;
+    bottom: -2px;
+    left: -6px;
+    background: url(/arrows-1.png) no-repeat bottom;
+    background-size: contain;
+    z-index: 2
+}
+
+.workflow-2:before {
+    content: '';
+    position: absolute;
+    width: 183px;
+    height: 200px;
+    bottom: -2px;
+    left: 3px;
+    background: url(/curve-2.png) no-repeat bottom;
+    background-size: contain;
+    z-index: 2
+}
+
+.workflow-2:after {
+    content: '';
+    position: absolute;
+    width: 176px;
+    height: 175px;
+    top: -5px;
+    left: 67px;
+    background: url(/arrows-2.png) no-repeat top;
+    background-size: contain;
+    z-index: 2
+}
+
+.workflow-3:before {
+    content: '';
+    position: absolute;
+    width: 184px;
+    height: 200px;
+    top: -3px;
+    left: 10px;
+    background: url(/curve-1.png) no-repeat top;
+    background-size: contain;
+    z-index: 2
+}
+
+.workflow-3:after {
+    content: '';
+    position: absolute;
+    width: 176px;
+    height: 175px;
+    bottom: -4px;
+    left: 66px;
+    background: url(/arrows-3.png) no-repeat bottom;
+    background-size: contain;
+    z-index: 2
+}
+
+.workflow-4:before {
+    content: '';
+    position: absolute;
+    width: 80px;
+    height: 200px;
+    bottom: -2px;
+    left: 3px;
+    background: url(/curve-3.png) no-repeat bottom;
+    background-size: contain;
+    z-index: 2
+}
+
+.workflow-4:after {
+    content: '';
+    position: absolute;
+    width: 174px;
+    height: 205px;
+    top: -3px;
+    left: 53px;
+    background: url(/arrows-4.png) no-repeat top;
+    background-size: contain;
+    z-index: 2
+}
+
+.workflow-number {
+    width: 75px;
+    height: 75px;
+    line-height: 75px;
+    border-radius: 50%;
+    background: rgba(0 ,0,0,.2);
+    position: absolute;
+    font-size: 34px;
+    color: #fff
+}
+
+.workflow-1 .workflow-number {
+    top: 39px;
+    left: -33px
+}
+
+.workflow-2 .workflow-number {
+    top: -25px;
+    left: 21px
+}
+
+.workflow-3 .workflow-number {
+    bottom: -22px;
+    left: 17px
+}
+
+.workflow-4 .workflow-number {
+    top: -25px;
+    left: 21px
+} 
+
+.workflow-sec h3 {
+    margin-bottom: 5px;
+    font-size: 29px;
+    clear: both;
+    font-weight: 600;
+}
+@media only screen and (min-width: 1280px) {
+    .single-workflow {
+        width:286px;
+        float: left;
+        padding: 0 7px
+    }
+
+    .workflow-img {
+        width: 286px;
+        height: 286px
+    }
+
+    .workflow-img-2 {
+        width: 286px;
+        height: 286px
+    }
+
+    .workflow-1 img {
+        max-width: 130px;
+    }
+
+    .workflow-2 img {
+        max-width: 120px
+    }
+
+    .workflow-3 img {
+        max-width: 110px
+    }
+
+    .workflow-4 img {
+        max-width: 140px
+    }
+
+    .workflow-1:before {
+        width: 264px;
+        height: 200px;
+        top: -3px;
+        left: 14px
+    }
+
+    .workflow-1:after {
+        width: 342px;
+        height: 290px;
+        bottom: -2px;
+        left: -7px
+    }
+
+    .workflow-2:before {
+        width: 262px;
+        height: 200px;
+        bottom: -2px;
+        left: 5px
+    }
+
+    .workflow-2:after {
+        width: 240px;
+        height: 300px;
+        top: -13px;
+        left: 98px
+    }
+
+    .workflow-3:before {
+        width: 264px;
+        height: 300px;
+        top: -3px;
+        left: 14px
+    }
+
+    .workflow-3:after {
+        width: 242px;
+        height: 300px;
+        bottom: -14px;
+        left: 97px
+    }
+
+    .workflow-4:before {
+        width: 112px;
+        height: 200px;
+        bottom: 0;
+        left: 3px
+    }
+
+    .workflow-4:after {
+        width: 174px;
+        height: 300px;
+        top: -6px;
+        left: auto;
+        right: -3px
+    }
+
+    .workflow-number {
+        width: 90px;
+        height: 90px;
+        line-height: 90px
+    }
+
+    .workflow-1 .workflow-number {
+        top: 66px;
+        left: -35px
+    }
+
+    .workflow-2 .workflow-number {
+        top: -35px;
+        left: 21px
+    }
+
+    .workflow-3 .workflow-number {
+        bottom: -36px;
+        left: 31px
+    }
+
+    .workflow-4 .workflow-number {
+        top: -38px;
+        left: 33px
+    }
+}
+.view-portfolio button{
+    border: none;
+    background: transparent;
+}
+.view-portfolio button a{
+    padding: 12px 48px;
+    border: 4px solid #fff;
+    border-radius: 4px;
+    display: inline-block;
+    font-weight: 600;
+    font-size: 15px;
+    transition: all .3s;
+    background-color: transparent !important;
+    color: #fff;
+    text-decoration: none;
+}
+.view-portfolio button a:hover{
+    background-color: #fff !important;
+    color: #000 !important;
+}
+.trans-btn button{  
+    padding: 12px 48px;
+    display: inline-block;
+    font-weight: 600;
+    font-size: 15px;
+    transition: all .3s;
+    background-color: #6682F6 !important;
+    color: #fff;
+    border: 0;
+}
+.trans-btn i{
+    color: white;
+    font-size: 20px;
+}
+.tab-content img{
+    width: 100%;
+}
