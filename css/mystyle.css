@@ -9,7 +9,9 @@ body {
     min-height: 1000px; /* Used to enable scrolling */
     /* background: linear-gradient(55deg, #3f1084 0%, #3f1084 51%,#3f1084 85%); */
 }
-
+footer ul li a:hover{
+    color: #787878 !important;
+}
 html,body{
     overflow-x: hidden;
     max-width: 100%;
@@ -171,7 +173,7 @@ h1.heading-h1 {
     position: absolute;
     top: 37%;
     right: 11%;
-    background: url(./images/line_w_T6U3q69.png) center no-repeat;
+    background: url(/images/line_w_T6U3q69.png) center no-repeat;
     width: 50px;
     height: 50px;
     background-size: contain;
@@ -446,7 +448,7 @@ footer ul li address{
     position: absolute;
     top: 0;
     left: 15%;
-    background: url(images/ring_JODjZnTHB.png) center no-repeat;
+    background: url(/images/ring_JODjZnTHB.png) center no-repeat;
     background-size: contain;
     width: 100px;
     height: 100px;
@@ -1008,7 +1010,7 @@ ul{
     height: 200px;
     top: -3px;
     left: 10px;
-    background: url(./images/curve-1.png) no-repeat top;
+    background: url(/images/curve-1.png) no-repeat top;
     background-size: contain;
     z-index: 2
 }
@@ -1020,7 +1022,7 @@ ul{
     height: 200px;
     bottom: -2px;
     left: -6px;
-    background: url(./images/arrows-1.png) no-repeat bottom;
+    background: url(/images/arrows-1.png) no-repeat bottom;
     background-size: contain;
     z-index: 2
 }
@@ -1032,7 +1034,7 @@ ul{
     height: 200px;
     bottom: -2px;
     left: 3px;
-    background: url(./images/curve-2.png) no-repeat bottom;
+    background: url(/images/curve-2.png) no-repeat bottom;
     background-size: contain;
     z-index: 2
 }
@@ -1044,7 +1046,7 @@ ul{
     height: 175px;
     top: -5px;
     left: 67px;
-    background: url(./images/arrows-2.png) no-repeat top;
+    background: url(/images/arrows-2.png) no-repeat top;
     background-size: contain;
     z-index: 2
 }
@@ -1056,7 +1058,7 @@ ul{
     height: 200px;
     top: -3px;
     left: 10px;
-    background: url(./images/curve-1.png) no-repeat top;
+    background: url(/images/curve-1.png) no-repeat top;
     background-size: contain;
     z-index: 2
 }
@@ -1068,7 +1070,7 @@ ul{
     height: 175px;
     bottom: -4px;
     left: 66px;
-    background: url(./images/arrows-3.png) no-repeat bottom;
+    background: url(/images/arrows-3.png) no-repeat bottom;
     background-size: contain;
     z-index: 2
 }
@@ -1080,7 +1082,7 @@ ul{
     height: 200px;
     bottom: -2px;
     left: 3px;
-    background: url(./images/curve-3.png) no-repeat bottom;
+    background: url(/images/curve-3.png) no-repeat bottom;
     background-size: contain;
     z-index: 2
 }
@@ -1092,7 +1094,7 @@ ul{
     height: 205px;
     top: -3px;
     left: 53px;
-    background: url(./images/arrows-4.png) no-repeat top;
+    background: url(/images/arrows-4.png) no-repeat top;
     background-size: contain;
     z-index: 2
 }

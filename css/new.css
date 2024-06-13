@@ -168,6 +168,18 @@ body,html{
         border: 0;
     }
 }
+@media only screen and (max-width: 575px) {
+    .view-portfolio button a {
+        padding: 10px 15px;
+        border: 2px solid #fff;
+        border-radius: 4px;
+        display: inline-block;
+        font-weight: 600;
+        font-size: 17px;
+        transition: all .3s;
+        background-color: transparent !important;
+    }
+}
 
 .banner-silder{
     background: #1A207E;
@@ -511,7 +523,7 @@ body,html{
     height: 200px;
     top: -3px;
     left: 10px;
-    background: url(./images/curve-1.png) no-repeat top;
+    background: url(/images/curve-1.png) no-repeat top;
     background-size: contain;
     z-index: 2
 }
@@ -523,7 +535,7 @@ body,html{
     height: 200px;
     bottom: -2px;
     left: -6px;
-    background: url(./images/arrows-1.png) no-repeat bottom;
+    background: url(/images/arrows-1.png) no-repeat bottom;
     background-size: contain;
     z-index: 2
 }
@@ -535,7 +547,7 @@ body,html{
     height: 200px;
     bottom: -2px;
     left: 3px;
-    background: url(./images/curve-2.png) no-repeat bottom;
+    background: url(/images/curve-2.png) no-repeat bottom;
     background-size: contain;
     z-index: 2
 }
@@ -547,7 +559,7 @@ body,html{
     height: 175px;
     top: -5px;
     left: 67px;
-    background: url(./images/arrows-2.png) no-repeat top;
+    background: url(/images/arrows-2.png) no-repeat top;
     background-size: contain;
     z-index: 2
 }
@@ -559,7 +571,7 @@ body,html{
     height: 200px;
     top: -3px;
     left: 10px;
-    background: url(./images/curve-1.png) no-repeat top;
+    background: url(/images/curve-1.png) no-repeat top;
     background-size: contain;
     z-index: 2
 }
@@ -571,7 +583,7 @@ body,html{
     height: 175px;
     bottom: -4px;
     left: 66px;
-    background: url(./images/arrows-3.png) no-repeat bottom;
+    background: url(/images/arrows-3.png) no-repeat bottom;
     background-size: contain;
     z-index: 2
 }
@@ -583,7 +595,7 @@ body,html{
     height: 200px;
     bottom: -2px;
     left: 3px;
-    background: url(./images/curve-3.png) no-repeat bottom;
+    background: url(/images/curve-3.png) no-repeat bottom;
     background-size: contain;
     z-index: 2
 }
@@ -595,7 +607,7 @@ body,html{
     height: 205px;
     top: -3px;
     left: 53px;
-    background: url(./images/arrows-4.png) no-repeat top;
+    background: url(/images/arrows-4.png) no-repeat top;
     background-size: contain;
     z-index: 2
 }
