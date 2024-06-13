@@ -92,7 +92,7 @@ body{
     display: inline;
 }
 .revolution-slider-area.slider-bg-1 {
-    background-image: url(https://ik.imagekit.io/Logura/banner/slider-14_adqdwDRAJCT.png);
+    background-image: url(./images/slider-14_adqdwDRAJCT.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom center;
@@ -103,7 +103,7 @@ body{
     position: absolute;
     top: 0;
     left: -120px;
-    background: url(/shape-yellow.png) center no-repeat;
+    background: url(./images/shape-yellow.png) center no-repeat;
     background-size: contain;
     width: 400px;
     height: 480px;
@@ -129,7 +129,7 @@ body{
     position: absolute;
     bottom: 0;
     right: -174px;
-    background: url(/shape-red.png) center no-repeat;
+    background: url(./images/shape-red.png) center no-repeat;
     background-size: contain;
     width: 400px;
     height: 480px;
@@ -171,7 +171,7 @@ h1.heading-h1 {
     position: absolute;
     top: 37%;
     right: 11%;
-    background: url(https://ik.imagekit.io/Logura/line_w_T6U3q69.png) center no-repeat;
+    background: url(./images/line_w_T6U3q69.png) center no-repeat;
     width: 50px;
     height: 50px;
     background-size: contain;
@@ -207,7 +207,7 @@ h1.heading-h1 {
     display: inline-block;
     padding: 20px 30px 30px 30px;
     border-radius: 8px;
-    background: rgba(0, 0, 0, .4);
+    /* background: rgba(0, 0, 0, .4); */
 }
 .revolution-slider-area .inner h2.heading-h6{
     font-size: 23px;
@@ -446,7 +446,7 @@ footer ul li address{
     position: absolute;
     top: 0;
     left: 15%;
-    background: url(/ring_JODjZnTHB.png) center no-repeat;
+    background: url(images/ring_JODjZnTHB.png) center no-repeat;
     background-size: contain;
     width: 100px;
     height: 100px;
@@ -1008,7 +1008,7 @@ ul{
     height: 200px;
     top: -3px;
     left: 10px;
-    background: url(/curve-1.png) no-repeat top;
+    background: url(./images/curve-1.png) no-repeat top;
     background-size: contain;
     z-index: 2
 }
@@ -1020,7 +1020,7 @@ ul{
     height: 200px;
     bottom: -2px;
     left: -6px;
-    background: url(/arrows-1.png) no-repeat bottom;
+    background: url(./images/arrows-1.png) no-repeat bottom;
     background-size: contain;
     z-index: 2
 }
@@ -1032,7 +1032,7 @@ ul{
     height: 200px;
     bottom: -2px;
     left: 3px;
-    background: url(/curve-2.png) no-repeat bottom;
+    background: url(./images/curve-2.png) no-repeat bottom;
     background-size: contain;
     z-index: 2
 }
@@ -1044,7 +1044,7 @@ ul{
     height: 175px;
     top: -5px;
     left: 67px;
-    background: url(/arrows-2.png) no-repeat top;
+    background: url(./images/arrows-2.png) no-repeat top;
     background-size: contain;
     z-index: 2
 }
@@ -1056,7 +1056,7 @@ ul{
     height: 200px;
     top: -3px;
     left: 10px;
-    background: url(/curve-1.png) no-repeat top;
+    background: url(./images/curve-1.png) no-repeat top;
     background-size: contain;
     z-index: 2
 }
@@ -1068,7 +1068,7 @@ ul{
     height: 175px;
     bottom: -4px;
     left: 66px;
-    background: url(/arrows-3.png) no-repeat bottom;
+    background: url(./images/arrows-3.png) no-repeat bottom;
     background-size: contain;
     z-index: 2
 }
@@ -1080,7 +1080,7 @@ ul{
     height: 200px;
     bottom: -2px;
     left: 3px;
-    background: url(/curve-3.png) no-repeat bottom;
+    background: url(./images/curve-3.png) no-repeat bottom;
     background-size: contain;
     z-index: 2
 }
@@ -1092,7 +1092,7 @@ ul{
     height: 205px;
     top: -3px;
     left: 53px;
-    background: url(/arrows-4.png) no-repeat top;
+    background: url(./images/arrows-4.png) no-repeat top;
     background-size: contain;
     z-index: 2
 }
@@ -1290,6 +1290,9 @@ footer p{
     .web-tab-sec-img img {
         max-width: 100%
     }
+    .bkseparator--15 {
+        height: 0px !important;
+    }
 } 
 @media only screen and (min-width: 992px) and (max-width:1199px) {
     .creative-portfolio .tp-caption .playfair-font {
@@ -1309,6 +1312,9 @@ footer p{
         font-size: 30px;
         font-weight: 700;
 
+    }
+    .bkseparator--15 {
+        height: 0px !important;
     }
     br{
         display: none !important;
@@ -1710,6 +1716,9 @@ footer p{
 
     .nav-button {
         font-size: 1.5em;
+    }
+    .bkseparator--15 {
+        height: 0px !important;
     }
 }
 
