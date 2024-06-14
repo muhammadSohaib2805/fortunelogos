@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: poppins;
+    font-family: 'Poppins';
 }
 body {
     min-height: 1000px; /* Used to enable scrolling */
@@ -41,8 +41,8 @@ html,body{
     padding-bottom: 10px;
 }
 .icon-title p{
-    color: honeydew;
-    font-size: 25px;
+    color: #fff;
+    font-size: 20px;
     font-weight: 500;
     
     text-align: center;
@@ -94,7 +94,7 @@ body{
     display: inline;
 }
 .revolution-slider-area.slider-bg-1 {
-    background-image: url(./images/slider-14_adqdwDRAJCT.png);
+    background-image: url(/images/slider-14_adqdwDRAJCT.webp);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom center;
@@ -488,7 +488,7 @@ footer ul li address{
     transform: translateX(-50%);
 }
 h1.heading-h3 {
-    font-size: 52px;
+    font-size: 50px;
     font-weight: 700;
     padding: 10px 0;
 }
@@ -496,10 +496,14 @@ h1.heading-h3 {
     letter-spacing: 1px;
 }
 h6.heading-h6 {
-    font-size: 23px;
+    font-size: 20px;
     font-weight: 600;
     line-height: 1.5;
 }
+.fs-17{
+    font-size: 17px;
+}
+
 @media only screen and (min-width: 1600px) {
     h6.heading-h6 {
         font-size: 25px;

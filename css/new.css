@@ -13,6 +13,11 @@ body,html{
 .navbar {
     background-color: #000;
 }
+.nav-item a {
+    font-family: poppins, sans-serif !important;
+    font-weight: 600;
+    font-size: 12px;
+}
 
 .logo{
     width: 160px;
@@ -100,7 +105,7 @@ body,html{
         position: absolute;
         z-index: 1200;
         left: 50%;
-        top: 17%;
+        height: 100%;
         text-align: center;
         transform: translateX(-50%);
         width: 100%;
@@ -221,12 +226,13 @@ body,html{
     background: var(--primary);
     border-color: var(--primary);
 }
-.portfolio h3{
-    font-size: 60px;
+/* .portfolio h3{
+    font-weight: 600;
+    font-size: 50px;
 }
 .portfolio h4,p{
-    font-size: 27px;
-}
+    font-size: 20px;
+} */
 .img-carousel img{
     border-radius: 10px;
 }
@@ -240,6 +246,15 @@ body,html{
 .fs-18{
     font-size: 18px !important;
 }
+.fs-16{
+    font-size: 16px !important;
+}
+.fs-17{
+    font-size: 17px !important;
+}
+.fs-40{
+    font-size: 40px;
+}
 .fs-49{
     font-size: 49px !important;
     font-weight:600 ;
@@ -248,8 +263,11 @@ body,html{
     font-size: 20px !important;
 }
 .fs-24{
-    font-size: 24p;
+    font-size: 24px;
     font-weight: 600;
+}
+.fs-50{
+    font-size: 50px;
 }
 .rating i{
     color: #FFAC33;
@@ -287,7 +305,7 @@ body,html{
     cursor: pointer;
     transition: background-color 0.3s ease;
     position: relative;
-    font-size: 18px;
+    font-size: 13px;
     border-radius: 6px;
     font-weight: 700;
 }
@@ -423,12 +441,12 @@ body,html{
 }
 
 .counter {
-    font-size: 2rem;
+    font-size: 1rem;
 }
 
 .count {
     display: block;
-    font-size: 4rem;
+    font-size: 2.5rem;
     font-weight: bold;
 }
 /* workflow */
@@ -647,7 +665,7 @@ body,html{
 
 .workflow-sec h3 {
     margin-bottom: 5px;
-    font-size: 29px;
+    font-size: 24px;
     clear: both;
     font-weight: 600;
 }
